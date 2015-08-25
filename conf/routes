@@ -9,7 +9,7 @@ GET     /                                   Application.index
 GET             /users                      Users.list
 DELETE          /users                      Users.deleteAll
 DELETE          /user/{id}                  Users.delete
-PUT             /users                      Users.add
+PUT             /user                      Users.add
 
 # Ignore favicon requests
 GET     /favicon.ico                            404
