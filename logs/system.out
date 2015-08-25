@@ -1,0 +1,7 @@
+Listening for transport dt_socket at address: 8000
+15:31:34,051 INFO  ~ Starting /Users/mark/代码/Appa
+15:31:34,741 WARN  ~ You're running Play! in DEV mode
+15:31:34,803 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+~ Server is up and running
+15:31:40,719 INFO  ~ Connected to jdbc:mysql://127.0.0.1/ak47?autoReconnect=true&useUnicode=true&characterEncoding=utf-8 for default
+15:31:41,586 INFO  ~ Application 'Appa' is now started !

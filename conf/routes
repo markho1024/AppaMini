@@ -1,0 +1,22 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                                   Application.index
+
+# User Manager page
+GET             /users                      Users.list
+DELETE          /users                      Users.deleteAll
+DELETE          /user/{id}                  Users.delete
+PUT             /users                      Users.add
+
+# Ignore favicon requests
+GET     /favicon.ico                            404
+
+# Map static resources from the /app/public folder to the /public path
+GET     /public/                                staticDir:public
+GET     /templates/                             staticDir:public/templates
+
+# Catch all
+*       /{controller}/{action}                  {controller}.{action}
